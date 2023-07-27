@@ -1,0 +1,87 @@
+.pic1{
+    width: 250px;
+    border-radius: 15px;
+}
+.pic2{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    object-position: center;
+}
+.pic3{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 100px;
+}
+.que-d{
+    font-size: 16px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    margin-left: 10px;
+}
+.que-e{
+    border-style: none;
+    box-shadow: 0px 1px 5px rgbA(0, 0, 0, 0.25);
+    width: 400px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-left: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.que-f{
+    color: grey;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-size: 10px;
+}
+#que-f-text{
+    margin-top: 10px;
+}
+#que-f-searchbar{
+    width: 220px;
+    margin-bottom: 15px;
+}
+#que-f-text-2{
+    margin-bottom: 10px;
+}
+#que-f-button{
+    width: 230px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 4px;
+    height: 36px;
+    color: white;
+    background-color: rgb(29, 104, 170);
+    border-radius: 18px;
+    font-size: 12px;
+}
+.que-g{
+    vertical-align:middle;
+}
+#que-g-pic{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#que-g-textbar{
+    border-style: none;
+    width: 150px;
+}
+#que-g-button{
+    height: 25px;
+    width: 60px;
+    background-color: rgb(74,153,232);
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+}
+

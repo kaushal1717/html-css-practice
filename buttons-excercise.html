@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Buttons Excercise</title>
+    <style>
+        .buttons{
+            border: none;
+            height: 36px;
+            cursor: pointer;
+            transition: opacity 0.15s, background-color 0.15s, box-shadow 0.15s, color 0.15s;
+        }
+        #uber-button{
+            background-color: black;
+            color: white;        
+            width: 110px;
+        }
+        #uber-button:hover{
+            opacity: 0.8;
+        }
+        #amazon-button{
+            background-color: rgb(255, 216, 20);
+            color: black;
+            border-radius: 18px;
+            width: 150px;
+        }
+        #amazon-button:hover{
+            background-color: rgb(245, 205, 3);
+        }
+        #github-button{
+            background-color: rgb(46, 164, 79);
+            color: white;
+            width: 80px;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        #github-button:hover{
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+        }
+        #bootstrap-button-1{
+            background-color: rgb(121, 82, 179);
+            color: white;
+            width: 100px;
+            font-weight: bold;
+            border-radius: 4px;
+            margin-right: 8px;
+        }
+        #bootstrap-button-1:hover{
+            background-color: rgb(111, 72, 169);
+        }
+        #bootstrap-button-2{
+            background-color: white;
+            color: rgb(108, 117, 125);
+            border-color: rgb(108, 117, 125);
+            border-style: solid;
+            border-radius: 4px;
+            width: 100px;
+            font-weight: bold;
+        }
+        #bootstrap-button-2:hover{
+            color: white;
+            background-color: rgb(108, 117, 125);
+        }
+        #linkedin-button-1{
+            background-color: rgb(10, 102, 194);
+            color: white;
+            border-radius: 18px;
+            width: 210px;
+            font-weight: bold;
+        }
+        #linkedin-button-1:hover{
+            background-color: rgb(0, 92, 184);
+        }
+        #linkedin-button-2{
+            background-color: white;
+            color: rgb(10, 102, 194);
+            border-color: rgb(10, 102, 194);
+            border-style: solid;
+            font-weight: bold;
+            width: 70px;
+            border-radius: 18px;
+        }
+        #linkedin-button-2:hover{
+            background-color: rgb(10, 102, 194);
+            color: white;
+        }
+        a{
+            color: rgb(0, 113, 133)
+        }
+        a:hover{
+            color: rgba(194,83,44,1);
+        }
+        h1{
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h4{
+            color: rgb(0,118,0);
+            font-weight: 600;
+        }
+        .del{
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+        #amazon-button-1{
+            background-color: rgb(255, 216, 20);
+            color: black;
+            border-radius: 18px;
+            width: 110px;
+            margin-right: 8px;
+        }#amazon-button-1:hover{
+            background-color: rgb(245, 205, 3);
+        }
+        #amazon-button-1:active{
+            opacity: 0.6;
+        }
+        #amazon-button-2{
+            background-color: rgb(255, 164, 28);
+            color: black;
+            border-radius: 18px;
+            width: 110px;
+        }
+        #amazon-button-2:hover{
+            background-color: rgb(245, 174, 18);
+        }
+        #amazon-button-2:active{
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <p>A. Uber</p>
+    <button class="buttons" id="uber-button">Request Now</button>
+    <p>B. Amazon</p>
+    <button class="buttons" id="amazon-button">Add to cart</button>
+    <p>C. GitHub</p>
+    <button class="buttons" id="github-button">Sign up</button>
+    <p>D. Bootstrap</p>
+    <button class="buttons" id="bootstrap-button-1">Get started</button>
+    <button class="buttons" id="bootstrap-button-2">Download</button>
+    <p>E. LinkedIn</p>
+    <button class="buttons" id="linkedin-button-1">Apply on company website</button>
+    <button class="buttons" id="linkedin-button-2">Save</button>
+    <p>F. challenge 2</p>
+    <a href="http://amazon.in">Back to amazon</a>
+    <h1>Nike black Running shoes</h1>
+    <h4>₹3200 - in stock</h4>
+    <p class="del">Free delivery tommorow</p>
+    <button class="buttons" id="amazon-button-1">Add to cart</button>
+    <button class="buttons" id="amazon-button-2">Buy now</button>
+</body>
+</html>
