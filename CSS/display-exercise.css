@@ -1,0 +1,92 @@
+.q-1{
+    display: block;
+    margin-top: 5px;
+}
+.q-2-text{
+    width: 200px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.q-2-button{
+    margin-left: 5px;
+}
+.q-3-image{
+    height: 200px;
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+.q-3-search-bar{
+    border-style: none;
+    box-shadow: 0px 1px 5px rgbA(0, 0, 0, 0.25);
+    width: 400px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 40px;
+}
+.q-4-textfield-1{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.q-4-textfield-2{
+    display: block;
+    margin-top: 5px;
+    height: 30px;
+    width: 210px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+.q-4-button{
+    width: 215px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(56,116,232);
+    cursor: pointer;
+}
+.q-5-heading{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.q-5-input-field{
+    display: block;
+    width: 257px;
+    height: 30px;
+    background-color: rgb(240,241,241);
+    border: none;
+    margin-top: 5px;
+}
+.q-5-button-1{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+}
+.q-5-button-2{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    color: black;
+    background-color: rgb(240,241,241);
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
