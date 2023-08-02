@@ -1,0 +1,29 @@
+.q-1{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+.red{
+    background-color: rgb(251, 144, 144);
+}
+.blue{
+    background-color: lightblue;
+}
+.q-2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.green{
+    background-color: lime;
+}
+.yellow{
+    background-color: yellow;
+}
+.q-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.block{
+    background-color: lightpink;
+}
