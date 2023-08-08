@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flexbox</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row; ">
+        <div style="background-color: lightgreen;">div 1 some text</div>
+        <div style="background-color: lightyellow;">div 2 <p>some text</p></div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 20px;">
+        <div style="background-color: lightgreen; width: 100px;">100px</div>
+        <div style="background-color: lightyellow;">div 2</div>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top: 20px;">
+        <div style="background-color: lightgreen; flex: 1;">flex 1</div>
+        <div style="background-color: lightyellow; flex: 2;">flex 2</div>
+        <div style="background-color: lightgreen; flex: 1;">flex 1</div>
+    </div>
+    <div style="border-width: 1px; border-color: grey; border-style: solid; justify-content: center; display: flex; flex-direction: row; margin-top: 20px;">
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+        <div style="background-color: lightyellow; width: 100px;">flex 2</div>
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+    </div>
+    <div style="border-width: 1px; border-color: grey; border-style: solid; justify-content: space-around; display: flex; flex-direction: row; margin-top: 20px;">
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+        <div style="background-color: lightyellow; width: 100px;">flex 2</div>
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+    </div>
+    <div style="border-width: 1px; border-color: grey; border-style: solid; align-items: center; justify-content: space-between; display: flex; flex-direction: row; margin-top: 20px; height: 100px;">
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+        <div style="background-color: lightyellow; width: 100px;">flex 2</div>
+        <div style="background-color: lightgreen; width: 100px;">flex 1</div>
+    </div>
+</body>
+</html>
